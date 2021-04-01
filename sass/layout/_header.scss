@@ -1,0 +1,35 @@
+.header {
+    height: 85vh;
+    background-image: url(../img/Ciudad-2.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-repeat: no-repeat;
+    transition: 5s;
+    
+    animation-name: animate;
+    animation-duration: alternate-reverse;
+    animation-duration: 30s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite; 
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 3.5rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+}
